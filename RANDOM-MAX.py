@@ -388,7 +388,7 @@ def password1():
         print(f" TOTAL IDZ             : "+tl+" ~> [ FASTEST⚡]")
         print(f" COUNTRY YOU CHOOSE    : PAKISTAN 🇵🇰")
         print(f" NUMBER YOU PUT        : "+code)
-        print(f"TODAY DATE & TIME     : +tag" ")
+        print(f"TODAY DATE & TIME     : +tag")
         print(f" TO STOP PROCESS PRESS Ctrl + Z ")
         print(f'==========================================================')
         for love in user:
@@ -628,7 +628,7 @@ def password5():
         print(f"TOTAL IDZ             : "+tl+" ~> [ SLOW 🐌]")
         print(f" COUNTRY YOU CHOOSE    : PAKISTAN 🇵🇰")
         print(f" NUMBER YOU PUT        : "+code)
-        print(f" TODAY DATE & TIME     :"+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print(f" TODAY DATE & TIME     :"+ tag")
         print(f" TO STOP PROCESS PRESS Ctrl + Z ")
         print(f'==========================================================')
         for love in user:
@@ -736,9 +736,9 @@ def Tabii2():
     with ThreadPool(max_workers=30) as manshera:    
         clear()
         tl = str(len(user))
-        print(f"TOTAL IDZ             : {RED}"+tl)
-        print(f" COUNTRY YOU CHOOSE    : {RED}BANGLADESH 🇧🇩")
-        print(f" NUMBER YOU PUT        : {RED}"+code)
+        print(f"TOTAL IDZ             : "+tl)
+        print(f" COUNTRY YOU CHOOSE    : BANGLADESH 🇧🇩")
+        print(f" NUMBER YOU PUT        : "+code)
         print(f" PROCESS HAS BEEN STARTED")
         print(f" BE PATIENT.......")
         print(f" TO STOP PROCESS Ctrl + Z ")
