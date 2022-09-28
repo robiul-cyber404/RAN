@@ -824,4 +824,4 @@ def m(uid,pwx,tl):
 
 #---------------------[END MENU]---------------------#
 if __name__ == '__main__':
-     main_apv()
+  xyz()
