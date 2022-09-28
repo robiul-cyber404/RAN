@@ -1,119 +1,213 @@
-#---------------------[IMPORT]---------------------#
-from bs4 import BeautifulSoup as sop
-from concurrent.futures import ThreadPoolExecutor as tred
-import os,sys,time,json,random,re,string,platform,base64,platform,uuid
-import requests,random,sys,json,os,re
-from time import sleep
-from os import system
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,uuid,ipaddress,calendar,requests,mechanize,bs4,sys,os,subprocess,uuid,requests,sys,random,time,re,base64,json,platform
-from datetime import date
-from datetime import datetime
-from time import sleep
-from time import sleep as waktu
-from random import random as acak
-from random import choice as pilih
-from random import randint
-from bs4 import BeautifulSoup
-import requests as ress
-from sys import exit as exit
-class jalan:
-    def __init__(self, z):
-        for e in z + "\n":
-            sys.stdout.write(e)
-            sys.stdout.flush()
-            time.sleep(0.009)
-
-###----------[ IMPORT LIBRARY ]---------- ###
-import requests
-import bs4
-import sys
 import os
-import random
-import time
-import re
-import json
-import uuid
-import subprocess
-import marshal
-import rich
-import shutil
-import webbrowser
-from random import randint
-from concurrent.futures import ThreadPoolExecutor as ThreadPool
-from bs4 import BeautifulSoup as par
-from datetime import date
-from datetime import datetime
-# from rich import print as printer
-from datetime import date
-import marshal
-try:
-    import requests
-    from concurrent.futures import ThreadPoolExecutor as ThreadPool
-    import mechanize
-    from requests.exceptions import ConnectionError
-except ModuleNotFoundError:
-    os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('python 𝙰𝙺𝙰𝚂𝙷.py')
-from bs4 import BeautifulSoup
-from datetime import date
-from datetime import datetime
-from time import sleep
-from time import sleep as waktu
-ugen = []
 
-A = '\x1b[1;97m' 
-B = '\x1b[1;96m' 
-C = '\x1b[1;91m' 
-D = '\x1b[1;92m'
-M = '\033[1;31m'
-H = '\033[1;32m'
-N = '\x1b[1;37m'    
-E = '\x1b[1;93m' 
-F = '\x1b[1;94m'
-G = '\x1b[1;95m'
-P = '\033[1;37m'
-RED = '\033[1;91m'
-WHITE = '\033[1;97m'
-GREEN = '\033[1;32m' #
-YELLOW = '\033[1;33m'
-BLUE = '\033[1;34m'
-ORANGE = '\033[1;35m'
-HBF = '{ HBF }'
-now = datetime.now()
-dt_string = now.strftime("%H:%M")
-current = datetime.now()
-ta = current.year
-bu = current.month
-ha = current.day
-today = date.today()
-𝙰𝙺𝙰𝚂𝙷2 = "\033[1;33m➤\033[1;32m➤\x1b[0m"
-for xd in range(10000):
-    x='Mozilla/5.0 (Linux; U; Android'
-    b=random.choice(['6','7','8','9','10','11','12'])
-    c=' en-us; GT-'
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e=random.randrange(1, 999)
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-    h=random.randrange(73,100)
-    i='0'
-    j=random.randrange(4200,4900)
-    k=random.randrange(40,150)
-    l='Mobile Safari/537.36'
-    uaku2=f'{x} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-    ugen.append(uaku2)
 try:
-    ua=open('bbnew.txt','r').read().splitlines()
-		for ub in ua:
-			ugen.append(ub)
-	except:
-		a=requests.get('https://github.com/TobiPHcheat/F-7/blob/main/approved.txt').text
-		ua=open('.bbnew.txt','w')
-		aa=re.findall('line">(.*?)<',str(a))
-		for un in aa:
-			ua.write(un+'\n')
-		ua=open('.bbnew.txt','r').read().splitlines()
-		
+
+    import requests
+
+except ImportError:
+
+    print('\n [✓] installing requests !...\n')
+
+    os.system('pip install requests')
+
+try:
+
+    import concurrent.futures
+
+except ImportError:
+
+    print('\n [✓] installing futures !...\n')
+
+    os.system('pip install futures')
+
+try:
+
+    import bs4
+
+except ImportError:
+
+    print('\n [✓] installing bs4 !...\n')
+
+    os.system('pip install bs4')
+
+import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
+
+from concurrent.futures import ThreadPoolExecutor as sarfrazssb
+
+from datetime import datetime
+
+from bs4 import BeautifulSoup
+
+ct = datetime.now()
+
+n = ct.month
+
+bulan = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Agustus', 'September', 'October', 'November', 'December']
+
+try:
+
+    if n < 0 or n > 12:
+
+        exit()
+
+    nTemp = n - 1
+
+except ValueError:
+
+    exit()
+
+current = datetime.now()
+
+ta = current.year
+
+bu = current.month
+
+ha = current.day
+
+op = bulan[nTemp]
+
+P = '\x1b[1;97m' # 
+
+M = '\033[1;96m' # 
+
+H = '\033[1;94m' # 
+
+K = '\x1b[1;93m' # 
+
+B = '\x1b[1;97m' # 
+
+U = '\x1b[1;97m' # 
+
+O = '\x1b[1;97m' # 
+
+N = '\x1b[0m'    # 
+
+my_color = [
+
+ P, M, H, K, B, U, O, N]
+
+warna = random.choice(my_color)
+
+data,data2={},{}
+
+aman,cp,salah=0,0,0
+
+ubahP,fuck,pwBaru=[],[],[]
+
+ok = []
+
+cp = []
+
+id = []
+
+user = []
+
+loop = 0
+
+url_lookup = "https://lookup-id.com/"
+
+url_mb = "https://m.facebook.com"
+
+url_ip = "https://www.httpbin.org/ip"
+
+header_grup = {"user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/13.4.1;FBSS/2;FBID/phone;FBLC/en_US;FBOP/5]"}
+
+bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}
+
+done = False
+
+def jalan(z):
+
+    for e in z + '\n':
+
+        sys.stdout.write(e)
+
+        sys.stdout.flush()
+
+        time.sleep(0.01)
+
+        
+
+def main_apv():
+
+    imt="110Y=="
+
+    ak="RAKIB_100RS"
+
+    os.system('clear')
+
+    print(logo)
+
+    try:
+
+        key1=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'r').read()
+
+    except IOError:
+
+        os.system("clear")
+
+        print(logo)
+
+        print ("༄MR᭄•───────────────────────────────────────•༄RAKIB᭄")
+        print ("YOUR TOKEN IS NOT APROVAL")     
+        print ("         THIS IS YOUR TOKEN👇📥📬")
+        print ("༄MR᭄•───────────────────────────────────────•༄RAKIB᭄")
+
+        print ("")
+
+        myid=uuid.uuid4().hex[:10].upper()
+
+        print ("          YOUR KEY : "+ak+myid+imt)
+
+        print ("༄MR᭄•───────────────────────────────────────•༄RAKIB᭄")
+
+        kok=open('/data/data/com.termux/files/usr/bin/.akkkk-cov', 'w')
+
+        kok.write(myid+imt)
+
+        kok.close()
+
+        print ("")
+
+        print ("")
+
+        print ("  Copy Key And Sent Me WhatsApp Approvel Your Key ")
+
+        print ("༄MR᭄•───────────────────────────────────────•༄RAKIB᭄")
+
+        time.sleep(3.5)
+
+        tks = 'Dear%20Admin,%20Please%20Approved%20My%20Token%20To%20Premium%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
+
+        os.system('am start https://wa.me/+9660531382117?text=' + tks)
+
+        
+
+    r1=requests.get("https://github.com/MarkZuke-404/maximum.number-/blob/main/Server%20text").text
+
+    if key1 in r1:
+
+        R()
+
+    else:
+
+        os.system("clear")
+
+        print(logo)
+
+        print ("         ༄MR᭄•───────────────────────────────────────•༄RAKIB᭄")
+        print ("             \033[1;94mGIVE ME 100RS FOR APROVAL Rakib")     
+           
+        print ("             \033[1;32mYOUR KEY : "+ak+key1)     
+        print ("             Key And Sent Me WP Approvel Your Key ")
+        print ("         ༄MR᭄•───────────────────────────────────────•༄RAKIB᭄")
+
+        time.sleep(3.5)
+
+        tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium✓✓%20%20%20%20%20My%20%20Key%20%20:%20'+ak+''+key1
+
+        os.system('am start https://wa.me/+9660531382117?text=' + tks)
+        
 loop = 0
 cp = []
 ok = []
