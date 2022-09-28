@@ -511,7 +511,7 @@ def password2():
         print(f" TOTAL IDZ             : "+tl+" ~> [ FAST ]")
         print(f" COUNTRY YOU CHOOSE    : PAKISTAN 🇵🇰")
         print(f" NUMBER YOU PUT        : "+code)
-        print(f" TODAY DATE & TIME     : "+tag")
+        print(f" TODAY DATE & TIME     : +tag")
         print(f" TO STOP PROCESS PRESS Ctrl + Z ")
         print(f'==========================================================')
         for love in user:
