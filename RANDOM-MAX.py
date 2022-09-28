@@ -284,7 +284,7 @@ def xyz():
     elif key in ["2","02"]:
         
     elif key in ["3","03"]:
-        
+        os.system("https://www.facebook.com/Itz.AriYaN.Sakib.Take.love")
     elif key in ["4","04"]:
         os.system("xdg-open https://chat.whatsapp.com/ClrBliZUhtbG79V5fYtKyK ")
         
