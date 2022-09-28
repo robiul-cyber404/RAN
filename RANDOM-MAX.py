@@ -335,7 +335,7 @@ def password():
     print(f"[03]  5 PASSWORDS   [ SLOW   🐌]")
     linex()
     print("")
-    passX = input(f" {CHOOSE{RAKIB} : ")
+    passX = input(f" {CHOOSE: ")
     if passX in ['1','01']:
         os.system("xdg-open https://www.facebook.com/owner.termux")
         password1()
