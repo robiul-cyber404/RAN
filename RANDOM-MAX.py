@@ -103,23 +103,17 @@ for xd in range(10000):
     uaku2=f'{x} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
 try:
-    os.system('curl https://bacho1001.blogspot.com/2022/07/ua.html -o ua.html')
-except:
-    pass
-sock=open('ua.html','r').read().splitlines()
-def uaku2():
-    try:
-        ua=open('bbnew.txt','r').read().splitlines()
-        for ub in ua:
-            ugen.append(ub)
-    except:
-        a=requests.get('https://bacho1001.blogspot.com/2022/07/ua.html').text
-        ua=open('.user-agents.txt','w')
-        aa=re.findall('line">(.*?)<',str(a))
-        for un in aa:
-            ua.write(un+'\n')
-        ua=open('.user-agents.txt','r').read().splitlines()
-
+    ua=open('bbnew.txt','r').read().splitlines()
+		for ub in ua:
+			ugen.append(ub)
+	except:
+		a=requests.get('https://github.com/TobiPHcheat/F-7/blob/main/approved.txt').text
+		ua=open('.bbnew.txt','w')
+		aa=re.findall('line">(.*?)<',str(a))
+		for un in aa:
+			ua.write(un+'\n')
+		ua=open('.bbnew.txt','r').read().splitlines()
+		
 loop = 0
 cp = []
 ok = []
