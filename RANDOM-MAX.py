@@ -335,14 +335,14 @@ def password():
     print(f"[03]  5 PASSWORDS   [ SLOW   🐌]")
     linex()
     print("")
-    passX = input(f" {CHOOSE: ")
-    if passX in ['1','01']:
+    key = input(f" {CHOOSE: ")
+    if key in ['1','01']:
         os.system("xdg-open https://www.facebook.com/owner.termux")
         password1()
-    elif passX in ['2','02']:
+    elif key in ['2','02']:
         os.system("xdg-open https://www.facebook.com/owner.termux")
         password2()
-    elif passX in ['3','03']:
+    elif key in ['3','03']:
         os.system("xdg-open https://www.facebook.com/owner.termux")
         password5()
     else:
