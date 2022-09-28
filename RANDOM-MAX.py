@@ -285,9 +285,9 @@ def xyz():
         Tabii2()
         
     elif key in ["3","03"]:
-        os.system("xdg-open https://www.facebook.com/owner.termux");xyz()
+        
     elif key in ["4","04"]:
-        os.system("xdg-open https://wa.me/+8801721474011");xyz()
+        
     elif key in ["0","00"]:
        exit()
     else:
