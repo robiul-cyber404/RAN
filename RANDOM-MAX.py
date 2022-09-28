@@ -313,7 +313,7 @@ def password():
         
         password2()
     elif key in ['3','03']:
-        
+        os.system("https://www.facebook.com/Itz.AriYaN.Sakib.Take.love")
         password5()
     else:
         xyz()
