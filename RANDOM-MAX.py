@@ -298,7 +298,7 @@ def xyz():
     print('           \x1b[97m[\033[37;41m  M A I N   M E N U   \033[0;m] ')
     print(f"")
     print(f'══════════════════════════════════════════════════════')
-    print(f" {WHITE}TODAY DATE & TIME     :{ha}/{bu}/{ta} ~> "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print(f" TODAY DATE & TIME     :+tag" ")
     print(f"══════════════════════════════════════════════════════")
     print(f"[01] {WHITE}RANDOM CLONE PAK  M1")
     print(f"[02] {WHITE}RANDOM CLONE BD  M1")
@@ -388,7 +388,7 @@ def password1():
         print(f" TOTAL IDZ             : "+tl+" ~> [ FASTEST⚡]")
         print(f" COUNTRY YOU CHOOSE    : PAKISTAN 🇵🇰")
         print(f" NUMBER YOU PUT        : "+code)
-        print(f"TODAY DATE & TIME     : ~>  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print(f"TODAY DATE & TIME     : +tag" ")
         print(f" TO STOP PROCESS PRESS Ctrl + Z ")
         print(f'==========================================================')
         for love in user:
@@ -511,7 +511,7 @@ def password2():
         print(f" TOTAL IDZ             : "+tl+" ~> [ FAST ]")
         print(f" COUNTRY YOU CHOOSE    : PAKISTAN 🇵🇰")
         print(f" NUMBER YOU PUT        : "+code)
-        print(f" TODAY DATE & TIME     : "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print(f" TODAY DATE & TIME     : "+tag")
         print(f" TO STOP PROCESS PRESS Ctrl + Z ")
         print(f'==========================================================')
         for love in user:
@@ -824,4 +824,4 @@ def m(uid,pwx,tl):
 
 #---------------------[END MENU]---------------------#
 if __name__ == '__main__':
-     xyz()
+     main_apv()
