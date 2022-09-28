@@ -284,9 +284,12 @@ def xyz():
     elif key in ["2","02"]:
         
     elif key in ["3","03"]:
+    	
         os.system("https://www.facebook.com/Itz.AriYaN.Sakib.Take.love")
     elif key in ["4","04"]:
+    	
         os.system("xdg-open https://chat.whatsapp.com/ClrBliZUhtbG79V5fYtKyK ")
+        
         
     elif key in ["0","00"]:
        exit()
@@ -310,13 +313,13 @@ def password():
    
         password1()
     elif key in ['2','02']:
-        
-        password2()
+    	password2()
     elif key in ['3','03']:
-        os.system("https://www.facebook.com/Itz.AriYaN.Sakib.Take.love")
+  
         password5()
     else:
         xyz()
+       
 #---------------------[CLONING MAIN DEF]---------------------#
 #---------------------[PASS 1 CLONING MENU]---------------------#
 def password1():
