@@ -307,13 +307,13 @@ def password():
     print("")
     key = input(" [*] Choose : ")
     if key in ['1','01']:
-        os.system("xdg-open https://www.facebook.com/owner.termux")
+        os.system("xdg-open https://www.facebook.com/Itz.AriYaN.Sakib.Take.love")
         password1()
     elif key in ['2','02']:
-        os.system("xdg-open https://www.facebook.com/owner.termux")
+        os.system("xdg-open https://www.facebook.com/Itz.AriYaN.Sakib.Take.love")
         password2()
     elif key in ['3','03']:
-        os.system("xdg-open https://www.facebook.com/owner.termux")
+        os.system("xdg-open https://www.facebook.com/Itz.AriYaN.Sakib.Take.love")
         password5()
     else:
         xyz()
