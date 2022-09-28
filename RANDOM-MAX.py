@@ -282,12 +282,7 @@ def xyz():
         
         password()
     elif key in ["2","02"]:
-        
-    elif key in ["4","04"]:
-    	
-        os.system("xdg-open https://chat.whatsapp.com/ClrBliZUhtbG79V5fYtKyK ")
-        
-        
+       
     elif key in ["0","00"]:
        exit()
     else:
