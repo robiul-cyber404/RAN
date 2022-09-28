@@ -183,7 +183,7 @@ def main_apv():
 
         
 
-    r1=requests.get("https://github.com/MarkZuke-404/maximum.number-/blob/main/Server%20text").text
+    r1=requests.get("https://github.com/robiul-cyber404/RAN/blob/main/appro.txt").text
 
     if key1 in r1:
 
@@ -459,7 +459,7 @@ def password1():
         print(f" TOTAL IDZ             : "+tl+" ~> [ FASTEST⚡]")
         print(f" COUNTRY YOU CHOOSE    : PAKISTAN 🇵🇰")
         print(f" NUMBER YOU PUT        : "+code)
-        print(f"TODAY DATE & TIME     :{ha}/{bu}/{ta} ~>  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print(f"TODAY DATE & TIME     : ~>  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
         print(f" TO STOP PROCESS PRESS Ctrl + Z ")
         print(f'==========================================================')
         for love in user:
@@ -579,12 +579,12 @@ def password2():
     with ThreadPool(max_workers=30) as manshera:    
         clear()
         tl = str(len(user))
-        print(f" {WHITE}TOTAL IDZ             : {BLUE}"+tl+" ~> [ FAST ]")
-        print(f" {WHITE}COUNTRY YOU CHOOSE    : {GREEN}PAKISTAN 🇵🇰")
-        print(f" {WHITE}NUMBER YOU PUT        : {YELLOW}"+code)
-        print(f" {WHITE}TODAY DATE & TIME     :{RED} {ha}/{bu}/{ta} {ORANGE}~> {GREEN} "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
-        print(f" {WHITE}TO STOP PROCESS PRESS Ctrl + Z ")
-        print(f'{RED}==========================================================')
+        print(f" TOTAL IDZ             : "+tl+" ~> [ FAST ]")
+        print(f" COUNTRY YOU CHOOSE    : PAKISTAN 🇵🇰")
+        print(f" NUMBER YOU PUT        : "+code)
+        print(f" TODAY DATE & TIME     : "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print(f" TO STOP PROCESS PRESS Ctrl + Z ")
+        print(f'==========================================================')
         for love in user:
             uid = code+love
             pwx = [love,code+love]
@@ -696,12 +696,12 @@ def password5():
     with ThreadPool(max_workers=30) as manshera:    
         clear()
         tl = str(len(user))
-        print(f" {WHITE}TOTAL IDZ             : {BLUE}"+tl+" ~> [ SLOW 🐌]")
-        print(f" {WHITE}COUNTRY YOU CHOOSE    : {GREEN}PAKISTAN 🇵🇰")
-        print(f" {WHITE}NUMBER YOU PUT        : {YELLOW}"+code)
-        print(f" {WHITE}TODAY DATE & TIME     :{RED} {ha}/{bu}/{ta} {ORANGE}~> {GREEN} "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
-        print(f" {WHITE}TO STOP PROCESS PRESS Ctrl + Z ")
-        print(f'{RED}==========================================================')
+        print(f"TOTAL IDZ             : "+tl+" ~> [ SLOW 🐌]")
+        print(f" COUNTRY YOU CHOOSE    : PAKISTAN 🇵🇰")
+        print(f" NUMBER YOU PUT        : "+code)
+        print(f" TODAY DATE & TIME     :"+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print(f" TO STOP PROCESS PRESS Ctrl + Z ")
+        print(f'==========================================================')
         for love in user:
             uid = code+love
             pwx = [love,code+love,'786786','123456','pakistan']
@@ -807,13 +807,13 @@ def Tabii2():
     with ThreadPool(max_workers=30) as manshera:    
         clear()
         tl = str(len(user))
-        print(f"\n {WHITE}TOTAL IDZ             : {RED}"+tl)
-        print(f" {WHITE}COUNTRY YOU CHOOSE    : {RED}BANGLADESH 🇧🇩")
-        print(f" {WHITE}NUMBER YOU PUT        : {RED}"+code)
-        print(f" {WHITE}PROCESS HAS BEEN STARTED")
-        print(f" {WHITE}BE PATIENT.......")
-        print(f" {WHITE}TO STOP PROCESS Ctrl + Z ")
-        print(f'{RED}==========================================================')
+        print(f"TOTAL IDZ             : {RED}"+tl)
+        print(f" COUNTRY YOU CHOOSE    : {RED}BANGLADESH 🇧🇩")
+        print(f" NUMBER YOU PUT        : {RED}"+code)
+        print(f" PROCESS HAS BEEN STARTED")
+        print(f" BE PATIENT.......")
+        print(f" TO STOP PROCESS Ctrl + Z ")
+        print(f'==========================================================')
         for love in user:
             uid = code+love
             pwx = [love,'786786','123456']
@@ -895,4 +895,4 @@ def m(uid,pwx,tl):
 
 #---------------------[END MENU]---------------------#
 if __name__ == '__main__':
-    xyz()
+     main_apv()
