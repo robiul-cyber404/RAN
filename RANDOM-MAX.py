@@ -307,18 +307,18 @@ def xyz():
     print(f"[00] EXIT PROGRAM ")
     print(f"")
     print(f"\033[1;91m========================================================")
-    𝙰𝙺𝙰𝚂𝙷 = input("[√] CHOOSE : ")
-    if 𝙰𝙺𝙰𝚂𝙷 in ["1","01"]:
+    key = input(" [*] Choose : ")
+    if key in ["1","01"]:
         
         password()
-    elif 𝙰𝙺𝙰𝚂𝙷 in ["2","02"]:
+    elif key in ["2","02"]:
         Tabii2()
         
-    elif 𝙰𝙺𝙰𝚂𝙷 in ["3","03"]:
+    elif key in ["3","03"]:
         os.system("xdg-open https://www.facebook.com/owner.termux");xyz()
-    elif 𝙰𝙺𝙰𝚂𝙷 in ["4","04"]:
+    elif key in ["4","04"]:
         os.system("xdg-open https://wa.me/+8801721474011");xyz()
-    elif 𝙰𝙺𝙰𝚂𝙷 in ["0","00"]:
+    elif key in ["0","00"]:
        exit()
     else:
         print('\033[1;31mINCORECT OPTION!\033[1;31m')
@@ -335,7 +335,7 @@ def password():
     print(f"[03]  5 PASSWORDS   [ SLOW   🐌]")
     linex()
     print("")
-    passX = input(f" {CHOOSE{𝙰𝙺𝙰𝚂𝙷2} : ")
+    passX = input(f" {CHOOSE{RAKIB} : ")
     if passX in ['1','01']:
         os.system("xdg-open https://www.facebook.com/owner.termux")
         password1()
