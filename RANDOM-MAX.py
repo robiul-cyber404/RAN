@@ -187,11 +187,7 @@ def main_apv():
 
     if key1 in r1:
 
-        R()
-
-    else:
-
-        os.system("clear")
+   os.system("clear")
 
         print(logo)
 
