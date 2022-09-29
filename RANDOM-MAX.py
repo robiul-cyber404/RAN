@@ -278,16 +278,38 @@ def xyz():
     print(f"")
     print(f"\033[1;91m========================================================")
     key = input(" [*] Choose : ")
-    if key in ["1","01"]:
-        
-        password()
-    elif key in ["2","02"]:
-       
-    elif key in ["0","00"]:
+    
+   if key in [""]:
+
        exit()
-    else:
-        print('\033[1;31mINCORECT OPTION!\033[1;31m')
-        xyz()
+
+			elif key in ["1", "01"]:
+
+				__xxx__().imtiaz(id)
+
+			elif key in ["2", "02"]:
+
+				
+
+				os.system('python dump.py')
+
+			elif key in ["3", "03"]:
+
+				
+
+				dupcutter()
+
+			elif key in ["4", "04"]:
+
+				
+
+				os.system("xdg-open https://chat.whatsapp.com/ClrBliZUhtbG79V5fYtKyK ")
+
+				R()
+
+			elif key in ["0", "00"]:
+		
+		print (" [!] Please Select Correct Option")
 #---------------------[PASS DEF]---------------------#
 def password():
     
