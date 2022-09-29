@@ -277,39 +277,22 @@ def xyz():
     print(f"[00] EXIT PROGRAM ")
     print(f"")
     print(f"\033[1;91m========================================================")
-    key = input(" [*] Choose : ")
-    
-   if key in [""]:
-
+    𝙰𝙺𝙰𝚂𝙷 = input("[√] CHOOSE : ")
+    if 𝙰𝙺𝙰𝚂𝙷 in ["1","01"]:
+        
+        password()
+    elif 𝙰𝙺𝙰𝚂𝙷 in ["2","02"]:
+        Tabii2()
+        
+    elif 𝙰𝙺𝙰𝚂𝙷 in ["3","03"]:
+        os.system("xdg-open https://www.facebook.com/owner.termux");xyz()
+    elif 𝙰𝙺𝙰𝚂𝙷 in ["4","04"]:
+        os.system("xdg-open https://wa.me/+8801721474011");xyz()
+    elif 𝙰𝙺𝙰𝚂𝙷 in ["0","00"]:
        exit()
-
-			elif key in ["1", "01"]:
-
-				__xxx__().imtiaz(id)
-
-			elif key in ["2", "02"]:
-
-				
-
-				os.system('python dump.py')
-
-			elif key in ["3", "03"]:
-
-				
-
-				dupcutter()
-
-			elif key in ["4", "04"]:
-
-				
-
-				os.system("xdg-open https://chat.whatsapp.com/ClrBliZUhtbG79V5fYtKyK ")
-
-				R()
-
-			elif key in ["0", "00"]:
-		
-		print (" [!] Please Select Correct Option")
+    else:
+        print('\033[1;31mINCORECT OPTION!\033[1;31m')
+        xyz()
 #---------------------[PASS DEF]---------------------#
 def password():
     
@@ -322,18 +305,19 @@ def password():
     print(f"[03]  5 PASSWORDS   [ SLOW   🐌]")
     linex()
     print("")
-    key = input(" [*] Choose : ")
-    if key in ['1','01']:
-   
+    passX = input(f" CHOOSE{𝙰𝙺𝙰𝚂𝙷} : ")
+    if passX in ['1','01']:
+        os.system("xdg-open https://www.facebook.com/owner.termux")
         password1()
-    elif key in ['2','02']:
-    	password2()
-    elif key in ['3','03']:
-  
+    elif passX in ['2','02']:
+        os.system("xdg-open https://www.facebook.com/owner.termux")
+        password2()
+    elif passX in ['3','03']:
+        os.system("xdg-open https://www.facebook.com/owner.termux")
         password5()
     else:
         xyz()
-       
+      
 #---------------------[CLONING MAIN DEF]---------------------#
 #---------------------[PASS 1 CLONING MENU]---------------------#
 def password1():
